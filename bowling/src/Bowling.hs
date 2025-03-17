@@ -1,4 +1,7 @@
-module Bowling where
+module Bowling (someFunc, toFrames, score, Frame(Open,Spare,Strike)) where
+
+someFunc :: IO ()
+someFunc = putStrLn "someFunc"
 
 data Frame = Open Int Int
            | Spare Int Int

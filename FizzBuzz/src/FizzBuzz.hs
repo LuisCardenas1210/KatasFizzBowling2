@@ -1,4 +1,4 @@
-module FizzBuzz (someFunc, fizzbuzz, lessThan20, tens, number) where
+    module FizzBuzz (someFunc, fizzbuzz, lessThan20, tens, number) where
 
 someFunc :: IO ()
 someFunc = putStrLn "someFunc"
